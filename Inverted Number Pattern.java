@@ -22,7 +22,7 @@ public static void main(String[] args) {
 			}
 			/* Method 2
 			int p=n-i+1;
-			while(j<=p){
+			while(j<=i){
 				System.out.print(p);
 				j++;
 			}
