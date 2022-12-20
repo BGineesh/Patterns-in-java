@@ -8,7 +8,7 @@ public class pattern3 {
 		int i=1;
 		for(;i<=n;i++) {
 			for(int j=1;j<=n;j++) {
-				int k=i+j-1;
+				int k=i+j-1;      //Method 1
 				if(k>n) {
 					System.out.print(k-n);
 				}else {
@@ -18,7 +18,7 @@ public class pattern3 {
 			System.out.println();
 		}
 
-		//		for(;i<=n;i++) {
+		//		for(;i<=n;i++) {                         // Method 2
 		//			for(int j=i;j<=n;j++) {
 		//				System.out.print(j);
 		//			}
