@@ -15,12 +15,18 @@ public static void main(String[] args) {
 		int i=n;
 		while(i>=1){
 			int j=1;
-			// int p=n-i+1;
+			// Method 1
 			while(j<=i){
-				
 				System.out.print(i);
 				j++;
 			}
+			/* Method 2
+			int p=n-i+1;
+			while(j<=p){
+				System.out.print(p);
+				j++;
+			}
+			*/
 			System.out.println();
 			i--;
 		}
